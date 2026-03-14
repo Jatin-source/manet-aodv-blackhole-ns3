@@ -19,9 +19,7 @@ for idx, (column, y_label) in enumerate(metrics.items(), start=1):
     plt.figure(figsize=(8, 6))
     
     for nodes in node_counts:
-        # Filter data by node count
         subset = df[df['Nodes'] == nodes]
-        # Plot Speed vs the specific Metric
         plt.plot(subset['Speed'], subset[column], 
                  label=f'{nodes} Nodes', 
                  color=colors[nodes], 
