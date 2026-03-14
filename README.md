@@ -173,16 +173,36 @@ These experiments evaluate performance under different
 <hr>
 
 <h2>📈 Generated Graphs</h2>
+<h2>📊 Phase 3 Results — Baseline Network Performance</h2>
 
-<ul>
-<li>PDR vs Node Speed</li>
-<li>Throughput vs Node Speed</li>
-<li>End-to-End Delay vs Node Speed</li>
-<li>Routing Overhead vs Node Speed</li>
-<li>Normalized Routing Load vs Node Speed</li>
-</ul>
+<p align="center">
+Baseline performance graphs of the AODV routing protocol under varying node speeds.
+</p>
 
-<p>
+<h3>Packet Delivery Ratio (PDR)</h3>
+<p align="center">
+<img src="results/Phase3-Baseline network implementation/Graph_1_PDRPercent.png" width="750">
+</p>
+
+<h3>Throughput</h3>
+<p align="center">
+<img src="results/Phase3-Baseline network implementation/Graph_2_ThroughputKbps.png" width="750">
+</p>
+
+<h3>End-to-End Delay</h3>
+<p align="center">
+<img src="results/Phase3-Baseline network implementation/Graph_3_Delays.png" width="750">
+</p>
+
+<h3>Routing Overhead</h3>
+<p align="center">
+<img src="results/Phase3-Baseline network implementation/Graph_4_RoutingOverhead.png" width="750">
+</p>
+
+<h3>Normalized Routing Load (NRL)</h3>
+<p align="center">
+<img src="results/Phase3-Baseline network implementation/Graph_5_NRL.png" width="750">
+</p>
 These graphs represent the <b>baseline performance profile of the AODV routing protocol</b>.
 </p>
 
