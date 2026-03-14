@@ -12,7 +12,6 @@ speed = sys.argv[2]
 overhead = 0
 with open("trace.tr", "r") as f:
     for line in f:
-        # 't' means transmitted. ns-3 uses lowercase 'aodv' in traces.
         if line.startswith('t') and 'aodv' in line.lower():
             overhead += 1
 
