@@ -146,7 +146,7 @@ This script generates performance visualization graphs.
 
 <hr>
 
-<h2>📊 Current Progress</h2>
+<h2>📊 Current Implementation Status</h2>
 
 <h3>Phase 3 — Baseline MANET Performance Established</h3>
 
@@ -216,43 +216,64 @@ docs/phase3-baseline-analysis.md
 
 Contains detailed explanations of simulation results and observations.
 
-<hr>
-
 <h2>🧠 Research Roadmap</h2>
 
 <table>
 <tr>
 <th>Phase</th>
 <th>Description</th>
+<th>Status</th>
 </tr>
+
+<tr>
+<td>Phase 1</td>
+<td>Research & System Understanding — Study MANET architecture, AODV routing protocol, and Black Hole attack behavior.</td>
+<td>✔ Completed</td>
+</tr>
+
+<tr>
+<td>Phase 2</td>
+<td>Simulation Environment Setup — Install and configure NS-3, verify build environment, and prepare simulation workspace.</td>
+<td>✔ Completed</td>
+</tr>
+
 <tr>
 <td>Phase 3</td>
-<td>Baseline MANET Simulation</td>
+<td>Baseline MANET Simulation — Implement normal AODV network and measure baseline performance metrics.</td>
+<td>✔ Completed</td>
 </tr>
+
 <tr>
 <td>Phase 4</td>
-<td>Black Hole Attack Implementation</td>
+<td>Black Hole Attack Implementation — Introduce malicious node behavior and analyze performance degradation.</td>
+<td>⏳ In Progress</td>
 </tr>
+
 <tr>
 <td>Phase 5</td>
-<td>Lightweight Detection Algorithm</td>
+<td>Lightweight Detection Algorithm — Design detection logic based on sequence number anomalies and packet drop patterns.</td>
+<td>⏳ Planned</td>
 </tr>
+
 <tr>
 <td>Phase 6</td>
-<td>Attack Mitigation</td>
+<td>Attack Mitigation — Isolate malicious nodes and restore network performance.</td>
+<td>⏳ Planned</td>
 </tr>
+
 <tr>
 <td>Phase 7</td>
-<td>Mobility Analysis</td>
+<td>Mobility Analysis — Evaluate protocol performance under high mobility scenarios.</td>
+<td>⏳ Planned</td>
 </tr>
+
 <tr>
 <td>Phase 8</td>
-<td>Scalability Evaluation</td>
+<td>Scalability Evaluation — Analyze performance across increasing node densities.</td>
+<td>⏳ Planned</td>
 </tr>
+
 </table>
-
-<hr>
-
 <h2>🛠 Technologies Used</h2>
 
 <ul>
