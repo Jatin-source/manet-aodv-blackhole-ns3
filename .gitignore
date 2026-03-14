@@ -1,0 +1,11 @@
+# NS-3 Simulation outputs
+*.tr
+*.xml
+*.pcap
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
